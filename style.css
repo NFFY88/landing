@@ -129,3 +129,16 @@ h2 {
 .star-fill {
    fill: #000;
 }
+
+@media screen and (max-width: 940px) {
+   .adaptive-padding {
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   .container-half {
+      max-width: none;
+   }
+}
