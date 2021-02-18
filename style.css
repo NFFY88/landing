@@ -1,0 +1,131 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+/* Default styles start  */
+.container {
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+.container-half {
+   max-width: 50%;
+   margin: 0 auto;
+}
+
+.between {
+   display: flex;
+   justify-content: space-between;
+}
+
+.flex-center {
+   align-items: center;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.vertical-padding {
+   padding: 100px 0;
+}
+
+h2 {
+   font-size: 34px;
+   line-height: 42px;
+}
+
+.site-background {
+   background-color: #F6F6F6;
+}
+
+/* Default styles end  */
+
+.fixed {
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 0px;
+   left: 0px;
+   width: 100vw;
+   background-color: #fff;
+}
+.header-nav {
+   width: 100%;
+   padding: 32px 0;
+   border-bottom: 1px solid #828282;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #000;
+}
+
+.nav-link-active {
+   font-weight: bold;
+}
+
+.me {
+   margin-top: 127px;
+   margin-bottom: 100px;
+}
+
+.me-name {
+   font-size: 48px;
+   line-height: 59px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.me-prof {
+   font-size: 20px;
+}
+
+.me-desc {
+   font-size: 20px;
+   text-align: center;
+}
+
+.me-photo {
+   margin-top: 40px;
+   text-align: center;
+}
+
+.me-photo>img {
+
+   max-height: 380px;
+}
+
+.about-desc,
+.skills-desc,
+.portfolio-desc,
+.contacts-social {
+   margin-top: 30px;
+}
+
+.skills-list {
+   margin-top: 80px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.skills-img {
+   max-width: 150px;
+}
+
+.skills-stars {
+   margin-top: 10px;
+}
+
+.star-fill {
+   fill: #000;
+}
